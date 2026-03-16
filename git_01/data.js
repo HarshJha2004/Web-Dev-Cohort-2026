@@ -1,0 +1,1 @@
+const bankBalance = 200;
