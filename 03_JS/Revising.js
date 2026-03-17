@@ -58,7 +58,51 @@
     let choice = false;
     let strConvert = String(choice);
 
-    console.log(strConvert);
+    // console.log(strConvert);
+
+    // Array of objects
+    const evidenceLog = [
+        {id:1, item:"Char footprint", location:"Bermuda"}
+    ];
+
+    // obj
+    const lootBox = {
+        medikit : 200,
+        gun : 1100,
+        pistol : 400,
+    }
+
+    // change the value of obj element
+    lootBox.gun = 2000;
+
+    console.log(typeof undefined);
+
+    // copy the obj
+    const protienPowderDetails = {
+        brandName : "Muscle Blaze",
+        protienType : "Whey protien",
+        price : 5000,
+        origin : "India",
+        //obj inside obj
+        creatine : {
+            brandName : "MB",
+            origin : "India",
+            flavour : "Non-flavoured"
+        }
+    }
+
+    //shallow copy
+    const protienPowderDuplicate = {... protienPowderDetails}
+
+    //deep copy 
+    const protienPowderDuplicate2 = structuredClone(protienPowderDetails);
+
+// // strings
+    const bikeBrandName = "splendor";
+
+    const anotherBikeBrand = String("Bajaj");
+    
+    // string is array in itself.
     
     
 
