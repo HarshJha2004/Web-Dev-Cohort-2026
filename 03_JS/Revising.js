@@ -59,7 +59,12 @@
     let strConvert = String(choice);
 
     // console.log(strConvert);
-
+    // In JS, we also return the object
+        /*return {
+            name : "Harsh",
+            age : 21
+        }*/
+       
     // Array of objects
     const evidenceLog = [
         {id:1, item:"Char footprint", location:"Bermuda"}
@@ -83,6 +88,7 @@
         protienType : "Whey protien",
         price : 5000,
         origin : "India",
+        
         //obj inside obj
         creatine : {
             brandName : "MB",
@@ -104,6 +110,8 @@
     
     // string is array in itself.
     
-    
+    // Using export, we make public anything.
 
+    
+    
 
